@@ -1,0 +1,99 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.logo {
+    width: 80px;
+    height: 70px;
+}
+
+#navItem{
+    color: black;
+    font-family: "Roboto";
+}
+
+.landing-page{
+    background-image: url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191125181621/What-is-FinTech.png");
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    padding: 200px;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh; /* Adjust this height as needed */
+  }
+
+/* Heading styles */
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+  
+/* Form container styles */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    max-width: 100%;
+}
+  
+/* Form heading styles */
+h2 {
+    color: #555;
+    margin-bottom: 15px;
+}
+  
+/* Label styles */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+}
+  
+/* Input field styles */
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+  
+/* Button styles */
+button {
+    background-color: #1c565e;
+    color: #fff;
+    padding: 10px;
+    border-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    height: fit-content;
+}
+  
+button:hover {
+    background-color: #45a049;
+}
+  
+/* Responsive styles */
+@media (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+}
+  
